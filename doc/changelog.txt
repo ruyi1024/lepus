@@ -1,0 +1,60 @@
+====================================
+3.8-beta版本更新记录
+
+【bug fix】优化启动脚本，修复部分主机启动报错的bug
+【bug fix】修复WEB界面个人面板中无法修改密码的bug
+【bug fix】将默认环境修改为生产模式，修复页面经常报notice错误的bug
+【bug fix】监控服务器增多的时候刷新的时候常出现无法连接数据库的bug
+【bug fix】监控屏数据量大的时候常出现ajax获取错误，而无法出图的bug
+【bug fix】修复OS采集时内存统计不准确的bug
+【bug fix】修复点击MySQL复制图表报没有权限的bug
+【bug fix】修复邮件发送测试程序调用变量名错误，导致发送邮件不成功的bug.
+【bug fix】修复PHP 5.6下CI内核报Notice错误的bug.
+【bug fix】AWR报告中checksum链接不正确的bug.优化和改进：
+
+【优化改进】支持SQLServer的基本性能监控和告警
+【优化改进】mysql采集程序代码优化
+【优化改进】优化日志记录功能
+【优化改进】支持MySQL5.7版本监控
+【优化改进】支持MongoDB 3.2版本监控（pymongo版本需升级到3.0以上）
+【优化改进】图表功能优化
+【优化改进】监控屏性能优化
+【优化改进】规范采集进程日志记录
+【优化改进】移除MongoDB索引相关的监控指标
+
+====================================
+3.7版本更新记录
+【bug fix】修复权限认证模块删除最外层节点时报错的bug
+【bug fix】修复mongodb检测时角色判断不正确的bug
+【bug fix】修复mysql检测时Linux进程变成僵尸进程的bug
+【bug fix】修复慢查询详细信息TD超出表格显示的bug
+【bug fix】修复mysql慢查询分析点击搜索排序后，分页后搜索失效的bug
+【bug fix】修复lepus的mongo管理界面会报错的bug（错误：Fatal error: Cannot redeclare class Mongodb...）
+【bug fix】修复mysql检测时Linux进程变成僵尸进程的bug
+【bug fix】修正redis检测时端口不是整形造成报错的bug
+【bug fix】修正告警WEB界面搜索url不正确的bug
+【bug fix】修正部分存储字段太小造成的检测异常问题
+【bug fix】修复监控主进程lepus.py判断监控配置开关时从mysql读取变量类型不一致导致配置关闭诸如oracle监控后，主进程还是进行相关检测的问题。
+【功能优化】自定义类MySQL/Oracle/MongoDB/Redis/OS增加前缀lp,避免和php内置db类名称冲突
+【功能优化】添加MongoDB在首页仪表盘显示角色
+
+====================================
+3.6版本更新记录
+1.监控机启动WEB界面显示状态错误的bug
+2.修复最大发送告警次数不生效的问题
+3.新增飞信机器人短信通知
+4.修改其他小的bug
+
+====================================
+3.5版本更新记录
+1.新增Oracle/Redis的性能监控
+2.修复慢查询分析重复显示的Bug
+3.修复OS监控主机修改后重复的bug
+4.修复Redis2.4老版本无法监控的bug
+5.修复修改标签后仪表盘仍然显示旧标签的bug
+6.完善Redis监控指标
+7.完善OS监控图表，新增网络、磁盘IO图表
+
+====================================
+3.0版本发布
+支持MySQL/MongoDB的全面性能监控

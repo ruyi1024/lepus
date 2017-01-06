@@ -1,0 +1,20 @@
+2016-05-01 09:32:42 [INFO] check mysql controller started.
+2016-05-01 09:32:44 [WARNING] check mysql 211.149.215.16:3309 failure: 1055 Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'information_schema.processlist.USER' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+2016-05-01 09:32:44 [WARNING] check mysql 211.149.215.16:3309 failure: sleep 3 seconds and check again.
+2016-05-01 09:32:52 [INFO] check mysql controller finished.
+2016-05-01 09:32:55 [INFO] check mongodb controller started.
+2016-05-01 09:32:59 [INFO] check redis controller started.
+2016-05-01 09:33:00 [INFO] check redis controller finished.
+2016-05-01 09:33:01 [INFO] check mongodb controller finished.
+2016-05-01 09:33:11 [INFO] check sqlserver controller started.
+2016-05-01 09:33:11 [WARNING] check sqlserver 127.0.0.1:1433 : (20009, 'DB-Lib error message 20009, severity 9:\nUnable to connect: Adaptive Server is unavailable or does not exist\nNet-Lib error during Operation now in progress (115)\n')
+2016-05-01 09:33:12 [INFO] check os controller started.
+2016-05-01 09:33:13 [INFO] check sqlserver controller finished.
+2016-05-01 09:33:13 [INFO] check os controller finished.
+2016-05-01 09:33:39 [INFO] check oracle controller start.
+2016-05-01 09:33:53 [INFO] check mysql controller started.
+2016-05-01 09:33:55 [WARNING] check mysql 211.149.215.16:3309 failure: 1055 Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'information_schema.processlist.USER' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+2016-05-01 09:33:55 [WARNING] check mysql 211.149.215.16:3309 failure: sleep 3 seconds and check again.
+2016-05-01 09:34:00 [INFO] check redis controller started.
+2016-05-01 09:34:01 [INFO] check mongodb controller started.
+2016-05-01 09:34:01 [INFO] check redis controller finished.
