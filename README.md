@@ -1,6 +1,19 @@
 
+##部分客户
+`以下是在2014-2015年的时候了解到的一些知名企业在使用Lepus，截止目前，Lepus在官网下载量超过30000+，相信有更多的企业也在默默使用Lepus，当然下列案例都是由企业的DBA提供，也可能目前已经不在使用，具体情况我目前也没有再进行过了解。`
+
+![](http://www.lepus.cc/themes/default/styles/images/cases_logo/letv.jpg)
+![](http://www.lepus.cc/themes/default/styles/images/cases_logo/pinganfang.jpg)
+![](http://www.lepus.cc/themes/default/styles/images/cases_logo/feiniu.jpg)
+![](http://www.lepus.cc/themes/default/styles/images/cases_logo/ly.jpg)
+![](http://www.lepus.cc/themes/default/styles/images/cases_logo/mtime.jpg)
+![](http://www.lepus.cc/themes/default/styles/images/cases_logo/mazhan.jpg)
+![](http://www.lepus.cc/themes/default/styles/images/cases_logo/365fanyi.jpg)
+![](http://www.lepus.cc/themes/default/styles/images/cases_logo/phpok.jpg)
 
 ##产品快照
+
+`点击图片可以查看大图`
 
 ###1.监控面板
 
