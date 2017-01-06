@@ -41,7 +41,7 @@ Lepus拥有创新的MySQL慢查询分析，TopSQL自动推送，基于时间范�
 
 ##产品快照
 
-`点击图片可以查看大图`
+github上面图片被裁剪了，更多产品图片介绍可以查看 http://www.lepus.cc/page/product
 
 ###1.监控面板
 
